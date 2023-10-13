@@ -75,4 +75,7 @@ public class Materia {
     public void setProfesor(Profesor profesor) {
         this.profesor = profesor;
     }
+
+
+
 }
