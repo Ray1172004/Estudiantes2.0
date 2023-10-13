@@ -40,13 +40,13 @@ public class Profesor {
         this.idProfesor = idProfesor;
     }
 
-    public void ingresarDatos(){
+    public void ingresarDatos(int i){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nombre del porfesor: \n");
+        System.out.println("Nombre del porfesor: \n"+i);
         String nombre = sc.next();
-        System.out.println("Cedula del profesor del profesor: \n");
+        System.out.println("Cedula del profesor del profesor: \n"+i);
         int cedula = sc.nextInt();
-        System.out.println("ID banner del profesor: \n");
+        System.out.println("ID banner del profesor: \n"+i);
         int idProfesor = sc.nextInt();
     }
 
