@@ -50,10 +50,5 @@ public class Profesor {
         int idProfesor = sc.nextInt();
     }
 
-
-
-
-
-
 }
 
